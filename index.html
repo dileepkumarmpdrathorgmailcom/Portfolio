@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👨‍💻 Aapka Naam</h1>
+    <p>Front-End Developer | HTML, CSS, JavaScript</p>
+    <button onclick="toggleMode()">🌗 Dark Mode</button>
+  </header>
+
+  <section>
+    <h2>🛠 Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>📋 Projects</h2>
+    <ul>
+      <li>Calculator App</li>
+      <li>Todo List App</li>
+      <li>Dark Mode Toggle</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📞 Contact</h2>
+    <form>
+      <input type="text" placeholder="Name"><br><br>
+      <input type="email" placeholder="Email"><br><br>
+      <textarea placeholder="Message"></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+  </html>
